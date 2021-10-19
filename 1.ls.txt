@@ -1,0 +1,6 @@
+
+    // 'ls' = 'list' files and directories.
+
+$ ls
+2014  2015  hardware.txt
+$ ...
