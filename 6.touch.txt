@@ -1,0 +1,87 @@
+
+    // 'ls' = 'list' files and directories.
+
+$ ls
+2014  2015  hardware.txt
+$ ...
+
+
+    // 'pwd' = print working directory.
+
+$ pwd
+/home/ccuser/workspace/blog
+$ ls
+2014  2015  hardware.txt
+$ ...
+
+
+    // 'cd' = 'change directory' to specified directory
+
+$ pwd
+/home/ccuser/workspace/blog
+$ ls
+2014  2015  hardware.txt
+$ cd 2015
+$ pwd
+/home/ccuser/workspace/blog/2015
+$ ls
+feb  jan  motherboard.txt
+$ cd jan
+$ ls
+cpu.txt  memory
+$ cd memory
+$ ...
+
+
+    // 'cd ..' = 'change directory (.. = move back/up one directory)'
+
+$ pwd
+/home/ccuser/workspace/blog
+$ cd 2015/feb
+$ pwd
+/home/ccuser/workspace/blog/2015/feb
+$ cd ../jan
+$ pwd
+/home/ccuser/workspace/blog/2015/jan
+$ cd ../..
+$ pwd
+/home/ccuser/workspace/blog
+$ ...
+
+
+    // 'mkdir' = 'make directory' in current location (or specified location)
+
+$ pwd
+/home/ccuser/workspace/blog
+$ cd 2014/dec
+$ pwd
+/home/ccuser/workspace/blog/2014/dec
+$ ls
+monitor.txt  mouse.txt
+$ mkdir media
+$ ls
+media  monitor.txt  mouse.txt
+$ pwd
+/home/ccuser/workspace/blog/2014/dec
+$ cd media
+$ pwd
+/home/ccuser/workspace/blog/2014/dec/media
+$ cd ..
+$ pwd
+/home/ccuser/workspace/blog/2014/dec
+$ mkdir media/tv
+$ pwd
+/home/ccuser/workspace/blog/2014/dec
+$ ls
+media  monitor.txt  mouse.txt
+$ ...
+
+
+    // 'touch' = make a new file in specified location.
+
+$ ls
+media  monitor.txt  mouse.txt
+$ touch keyboard.txt
+$ ls
+keyboard.txt  media  monitor.txt  mouse.txt
+$ ...
