@@ -1,0 +1,11 @@
+$ pwd
+/home/ccuser/workspace/movies/comedy
+
+    // 'cat' = Displaye the contents of the file - can be used without being in the specified directory
+
+$ cat /home/ccuser/workspace/movies/action/scifi/terminator.txt
+In Terminator Genisys, a Terminator is sent back in time to when Sarah Connor was a child and rescues her from another Terminator sent to kill her and her parents. The now-orphaned Sarah Connor is subsequently raised by the Terminator to prepare for her future destiny, destroying the Terminator from the first movie before it can begin its search for her. However, a T-1000 is sent in its place to hunt down Sarah and Kyle Reese, who must work alongside the aged T-800 to stop both a new T-800 and T-1000 from changing the past, as well as John Connor himself, who has been transformed into a nano-hybrid Terminator T-3000 sent to kill them as well. This is also a soft reboot of the franchise, both retreading and changing events from the first four Terminator films. It is planned as the first film in a trilogy, with Schwarzenegger confirming that he will return for the trilogy's second film. 
+
+$ cat /home/ccuser/workspace/movies/comedy/satire/fight-club.txt
+$ 
+$ ...
