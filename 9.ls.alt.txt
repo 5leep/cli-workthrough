@@ -1,0 +1,15 @@
+$ ls
+action  comedy  drama  genres.txt
+$ cd comedy
+
+    // 'ls -alt' = Lists all contents, including hidden files and directories, in long format, ordered by the date and time they were last modified.
+
+$ ls -alt
+total 4
+drwxr-xr-x 5 ccuser ccuser 85 Oct 19 14:58 ..
+drwxr-xr-x 4 ccuser ccuser 77 May 26 19:06 .
+-rw-r--r-- 1 ccuser ccuser  0 May 26 19:06 .gitignore
+drwxr-xr-x 2 ccuser ccuser 28 May 26 19:06 satire
+drwxr-xr-x 2 ccuser ccuser 47 May 26 19:06 slapstick
+-rw-r--r-- 1 ccuser ccuser 14 May 26 19:06 the-office.txt
+$ ...
