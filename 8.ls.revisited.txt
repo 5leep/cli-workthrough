@@ -1,0 +1,25 @@
+    // 'ls -a' = lists ALL contents
+
+$ pwd
+/home/ccuser/workspace/movies
+$ ls
+action  comedy  drama  genres.txt
+$ ls -a
+.  ..  action  comedy  drama  genres.txt  .preferences
+
+
+    // 'ls -L' = Lists all contents in long format, with file permissions.
+
+$ ls -t
+action  comedy  genres.txt  drama
+
+
+    // 'ls -t' = Lists all files and orders them by the time they were last modified.
+
+$ ls -l
+total 0
+drwxr-xr-x 4 ccuser ccuser 172 May 26 19:06 action
+drwxr-xr-x 4 ccuser ccuser  77 May 26 19:06 comedy
+drwxr-xr-x 4 ccuser ccuser  38 Jul  8  2015 drama
+-rw-r--r-- 1 ccuser ccuser   0 May 26 19:06 genres.txt
+$ 
