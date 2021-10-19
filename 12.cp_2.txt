@@ -1,0 +1,24 @@
+$ pwd
+/home/ccuser/workspace/movies/drama/biopic
+$ cd ..
+$ pwd
+/home/ccuser/workspace/movies/drama
+$ ls -alt
+total 0
+drwxr-xr-x 5 ccuser ccuser 85 Oct 19 15:32 ..
+drwxr-xr-x 2 ccuser ccuser 99 Oct 19 15:32 biopic
+drwxr-xr-x 2 ccuser ccuser 44 Oct 19 15:32 historical
+drwxr-xr-x 4 ccuser ccuser 38 Jul  8  2015 .
+$ ls
+biopic  historical
+$ cp biopic/cleopatra.txt historical
+$ pwd
+/home/ccuser/workspace/movies/drama
+$ cd historical
+$ pwd
+/home/ccuser/workspace/movies/drama/historical
+$ ls
+cleopatra.txt  gladiator.txt  selma.txt
+$ ls historical -alt
+ls: cannot access 'historical': No such file or directory
+$ 
