@@ -1,0 +1,47 @@
+$ pwd
+/home/ccuser/workspace/movies
+$ ls
+action  comedy  drama  genres.txt
+$ cd drama/biopic
+$ pwd
+/home/ccuser/workspace/movies/drama/biopic
+$ ls
+cleopatra.txt  frida.txt  lincoln.txt  notorious.txt  ray.txt
+
+    // 'cp' = Copy
+
+$ cp frida.txt lincoln.txt
+$ cat lincoln.txt
+Frida begins just before the traumatic accident Frida Kahlo (Salma Hayek) suffered at the age of 18 when a trolley bus collided with a motor bus she was riding. She is impaled by a metal pole and the injuries she sustained plague her for the rest of her life. To help her through convalescence, her father brings her a canvas upon which to start painting. Throughout the film, a scene starts as a painting, then slowly dissolves into a live-action scene with actors.
+
+Frida also details the artist's dysfunctional relationship with the muralist Diego Rivera (Alfred Molina). When Rivera proposes to Kahlo, she tells him she expects from him loyalty if not fidelity. Diego's appraisal of her painting ability is one of the reasons that she continues to paint. Throughout the marriage, Rivera cheats on her with a wide array of women, while the bisexual Kahlo takes on male and female lovers, including in one case having an affair with the same woman as Rivera.
+
+The two travel to New York City so that he may paint the mural Man at the Crossroads at the Rockefeller Center. While in the United States, Kahlo suffers a miscarriage, and her mother dies in Mexico. Rivera refuses to compromise his Communist vision of the work to the needs of the patron, Nelson Rockefeller (Edward Norton); as a result, the mural is destroyed. The pair return to Mexico, with Rivera the more reluctant of the two.
+
+
+
+
+$ pwd
+/home/ccuser/workspace/movies/drama/biopic
+$ cd ..
+$ pwd
+/home/ccuser/workspace/movies/drama
+$ ls -alt
+total 0
+drwxr-xr-x 5 ccuser ccuser 85 Oct 19 15:32 ..
+drwxr-xr-x 2 ccuser ccuser 99 Oct 19 15:32 biopic
+drwxr-xr-x 2 ccuser ccuser 44 Oct 19 15:32 historical
+drwxr-xr-x 4 ccuser ccuser 38 Jul  8  2015 .
+$ ls
+biopic  historical
+$ cp biopic/cleopatra.txt historical
+$ pwd
+/home/ccuser/workspace/movies/drama
+$ cd historical
+$ pwd
+/home/ccuser/workspace/movies/drama/historical
+$ ls
+cleopatra.txt  gladiator.txt  selma.txt
+$ ls historical -alt
+ls: cannot access 'historical': No such file or directory
+$ ...
