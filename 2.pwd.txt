@@ -1,0 +1,15 @@
+
+    // 'ls' = 'list' files and directories.
+
+$ ls
+2014  2015  hardware.txt
+$ ...
+
+
+    // 'pwd' = print working directory.
+
+$ pwd
+/home/ccuser/workspace/blog
+$ ls
+2014  2015  hardware.txt
+$ ...
