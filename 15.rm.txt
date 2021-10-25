@@ -1,0 +1,21 @@
+
+        // "rm" = Remove a file
+
+$ pwd
+/home/ccuser/workspace/movies
+$ ls
+action  comedy  drama  genres.txt
+$ cd comedy/slapstick
+$ ls
+waterboy.txt  zoolander.txt
+$ rm waterboy.txt
+$ ls
+zoolander.txt
+$ cd ..
+
+        // "-r" = Recursive, used after 'rm' to modify the command so that it works with directories.
+
+$ rm -r slapstick
+$ ls
+satire  shrek.txt  the-office.txt
+$ ...
