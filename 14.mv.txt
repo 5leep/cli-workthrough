@@ -1,0 +1,11 @@
+$ ls
+action  comedy  drama  genres.txt
+$ cd action
+$ ls
+matrix-reloaded.txt  matrix-revolutions.txt  matrix.txt  scifi  superhero
+$ mv superhero/batman.txt superhero/spiderman.txt
+$ clear
+
+$ ls superhero
+spiderman.txt  superman.txt  wonderwoman.txt
+$ ...
