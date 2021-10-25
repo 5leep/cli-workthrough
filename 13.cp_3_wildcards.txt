@@ -1,0 +1,24 @@
+$ pwd
+/home/ccuser/workspace/movies
+$ ls
+action  comedy  drama  genres.txt
+$ cd comedy
+$ touch shrek.txt
+$ ls
+satire  shrek.txt  slapstick  the-office.txt
+$ cp w* satire/
+cp: cannot stat 'w*': No such file or directory
+$ cp * satire/
+cp: -r not specified; omitting directory 'satire'
+cp: -r not specified; omitting directory 'slapstick'
+$ ls
+satire  shrek.txt  slapstick  the-office.txt
+$ ls satire/
+fight-club.txt  shrek.txt  the-office.txt
+$ cd ../action/
+$ cp m*.txt scifi/
+$ ls scifi/]
+ls: cannot access 'scifi/]': No such file or directory
+$ ls scifi/
+matrix-reloaded.txt  matrix-revolutions.txt  matrix.txt  terminator.txt
+$ ...
